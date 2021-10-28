@@ -4,3 +4,5 @@ Algorithms Studied During Operating Sytem Course
 2. Least Recently Used (LRU)
 3. Most Recently Used (MRU)
 4. Optimal
+
+1. Indexed Allocation
