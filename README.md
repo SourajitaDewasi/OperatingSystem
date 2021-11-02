@@ -17,4 +17,6 @@ value and then back to the outmost disk to inside servicing requests. This algor
 easy to understand. CLOOK algorithm have less starvation than SSTF and CSCAN.
 This algorithm considers the disk in circular form.
 
-2. CSCAN Algorithm:
+2. CSCAN Algorithm: Go from the outside to inside servicing requests till 0 and then back to the outmost disk
+to inside servicing requests. This algorithm is simple and easy to understand. CSCAN algorithm have
+less starvation than SSTF. This algorithm considers the disk in circular form.
