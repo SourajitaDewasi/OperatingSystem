@@ -11,7 +11,7 @@ Algorithms Studied During Operating Sytem Course
 address in the previous block to not search throught memory for faster allocation or deallocation
 3. Sequential Allocation
 
-## Disc Schedueling Algorithm
+## Disc Scheduling Algorithm
 1. CLOOK Algorithm: Go from the outside to inside servicing requests till the least service request
 value and then back to the outmost disk to inside servicing requests. This algorithm is simple and 
 easy to understand. CLOOK algorithm have less starvation than SSTF and CSCAN.
