@@ -6,9 +6,11 @@ Algorithms Studied During Operating Sytem Course
 4. Optimal Algorithm:
 
 ## File Allocation Algorithm
-1. Indexed Allocation
+1. Indexed Allocation: Indexed allocation scheme stores all the disk pointers in one of the blocks called as indexed block. Indexed block doesn't hold the file data, but it holds the pointers to all the disk blocks allocated to that particular file. Directory entry will only contain the index block address.
+
 2. Linked Allocation: Linked Allocation is a non-contiguous memory allocation method. We just keep a link of the next 
-address in the previous block to not search throught memory for faster allocation or deallocation
+address in the previous block to not search throught memory for faster allocation or deallocation.
+
 3. Sequential Allocation
 
 ## Disc Scheduling Algorithm
