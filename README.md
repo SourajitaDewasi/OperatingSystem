@@ -25,3 +25,7 @@ less starvation than SSTF. This algorithm considers the disk in circular form.
 and then back from inside to outside servicing requests. This algorithm is simple and easy to 
 understand. LOOK algorithm have no starvation. This algorithm is better than FCFS and SCAN 
 Scheduling algorithm .
+
+4. SCAN algorithm : Go from the outside to inside servicing requests till 0 and then back from inside
+to outside servicing requests. This algorithm is simple and easy to understand. CAN algorithm have
+no starvation. This algorithm is better than FCFS Scheduling algorithm.
