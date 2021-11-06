@@ -1,12 +1,12 @@
 # OperatingSystem
 Algorithms Studied During Operating Sytem Course
-1. First In First Out (FIFO) Algorithm:
-2. Least Recently Used (LRU) Algorithm:
-3. Most Recently Used (MRU) Algorithm:
-4. Optimal Algorithm:
+1. *First In First Out (FIFO) Algorithm:*
+2. *Least Recently Used (LRU) Algorithm:*
+3. *Most Recently Used (MRU) Algorithm:*
+4. *Optimal Algorithm:*
 
 ## File Allocation Algorithm
-1. Indexed Allocation: Indexed allocation scheme stores all the disk pointers in one of the blocks called as indexed block. Indexed block doesn't hold the file data, but it holds the pointers to all the disk blocks allocated to that particular file. Directory entry will only contain the index block address.
+1. *Indexed Allocation:* Indexed allocation scheme stores all the disk pointers in one of the blocks called as indexed block. Indexed block doesn't hold the file data, but it holds the pointers to all the disk blocks allocated to that particular file. Directory entry will only contain the index block address.
 
 2. Linked Allocation: Linked Allocation is a non-contiguous memory allocation method. We just keep a link of the next 
 address in the previous block to not search throught memory for faster allocation or deallocation.
