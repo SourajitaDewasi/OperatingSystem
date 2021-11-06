@@ -35,3 +35,7 @@ Scheduling algorithm .
 4. SCAN algorithm : Go from the outside to inside servicing requests till 0 and then back from inside
 to outside servicing requests. This algorithm is simple and easy to understand. CAN algorithm have
 no starvation. This algorithm is better than FCFS Scheduling algorithm.
+
+5. SSTF Scheduling: Select the disk service request that requires the least movement of the disk head
+from the current position regardless of the direction. Starvation possible. 
+Switching head direction slows down the system. Every request is serviced.
