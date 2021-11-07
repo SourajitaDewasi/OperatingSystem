@@ -1,3 +1,5 @@
+//This code is contributed by Sourajita Dewasi
+
 /* CLOOK algorithm : Go from the outside to inside servicing requests till the least service request
 value and then back to the outmost disk to inside servicing requests. This algorithm is simple and 
 easy to understand. CLOOK algorithm have less starvation than SSTF and CSCAN.
