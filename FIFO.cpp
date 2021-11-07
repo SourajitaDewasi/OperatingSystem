@@ -1,8 +1,9 @@
+//This code is contributed by Sourajita Dewasi
 #include<iostream>
 using namespace std;
 
 int main()
-{     cout<<"\n FIFO Simulation";
+{     cout<<"\n First In First Out Simulation";
       int reference_string[12]={5,1,2,3,5,1,4,5,1,2,3,4};
       int page_faults = 0;
       int m, n, s, pages=12, frames=4;
