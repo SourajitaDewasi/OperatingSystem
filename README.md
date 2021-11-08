@@ -39,3 +39,6 @@ no starvation. This algorithm is better than FCFS Scheduling algorithm.
 5. *SSTF Scheduling:* Select the disk service request that requires the least movement of the disk head
 from the current position regardless of the direction. Starvation possible. 
 Switching head direction slows down the system. Every request is serviced.
+
+6. *FCFS Scheduling:* It is the Simplest Disk Scheduling Algorithm. It erforms operations according to order of the request. No ordering of work queue. 
+No starvation. Every request is serviced. In the code, I assumed static order of requests._
