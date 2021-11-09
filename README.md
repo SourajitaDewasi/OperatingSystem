@@ -2,7 +2,7 @@
 Algorithms Studied During Operating Sytem Course
 
 ## Page Replacement Algorithm
-1. *First In First Out (FIFO) Algorithm:*
+1. *First In First Out (FIFO) Algorithm:* This is the most basic page replacement method. The operating system uses this algorithm to maintain track of all pages in memory in a queue, with the oldest page at the top. When a page has to be replaced, the first page in the queue is chosen for replacement. 
 2. *Least Recently Used (LRU) Algorithm:*
 3. *Most Recently Used (MRU) Algorithm:*
 4. *Optimal Algorithm:*
