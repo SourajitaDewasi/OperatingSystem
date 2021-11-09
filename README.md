@@ -1,5 +1,7 @@
 # OperatingSystem
 Algorithms Studied During Operating Sytem Course
+
+## Page Replacement Algorithm
 1. *First In First Out (FIFO) Algorithm:*
 2. *Least Recently Used (LRU) Algorithm:*
 3. *Most Recently Used (MRU) Algorithm:*
