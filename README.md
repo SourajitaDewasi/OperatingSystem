@@ -6,7 +6,7 @@ Algorithms Studied During Operating Sytem Course
 
 2. *Least Recently Used (LRU) Algorithm:* The Least Recently Used (LRU) algorithm is a greedy method in which the page to be replaced is the one that has been used the least recently. The concept is based on the fact that the most recently used page is unlikely to be the most recently utilised page. 
 
-3. *Most Recently Used (MRU) Algorithm:*
+3. *Most Recently Used (MRU) Algorithm:* The Most Recently Used (LRU) algorithm is a greedy method in which the page to be replaced is the one that has been used the least recently. The concept is based on the fact that the most recently used page is unlikely to be the most recently utilised page. 
 4. *Optimal Algorithm:*
 
 ## File Allocation Algorithm
@@ -45,4 +45,10 @@ from the current position regardless of the direction. Starvation possible.
 Switching head direction slows down the system. Every request is serviced.
 
 6. *FCFS Scheduling:* It is the Simplest Disk Scheduling Algorithm. It erforms operations according to order of the request. No ordering of work queue. 
-No starvation. Every request is serviced. In the code, I assumed static order of requests._
+No starvation. Every request is serviced. In the code, I assumed static order of requests.
+
+## CLASSICAL PROBLEMS IN OPERATING SYSTEM
+
+1. *The Dining Philosopher's Probelm* : The dining philosopher's problem is a variation on the traditional synchronisation problem, in which five philosophers sit around a circular table and alternate between thinking and eating. A bowl of noodles, as well as five chopsticks for each of the philosophers, is placed in the centre of the table.
+A philosopher must use both their right and left chopsticks to eat. A philosopher can only eat if both of his or her immediate left and right chopsticks are available.
+If the philosopher's immediate left and right chopsticks are not available, the philosopher places their (either left or right) chopstick on the table and resumes thinking.
