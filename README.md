@@ -31,7 +31,7 @@ No starvation. Every request is serviced. In the code, I assumed static order of
 
 4. *SCAN algorithm:* Go from the outside to inside servicing requests till 0 and then back from inside to outside servicing requests. This algorithm is simple and easy to understand. CAN algorithm have no starvation. This algorithm is better than FCFS Scheduling algorithm.
 
-5.*CLOOK Algorithm:* Go from the outside to inside servicing requests till the least service request value and then back to the outmost disk to inside servicing requests. This algorithm is simple and easy to understand. CLOOK algorithm have less starvation than SSTF and CSCAN. This algorithm considers the disk in circular form.
+5. *CLOOK Algorithm:* Go from the outside to inside servicing requests till the least service request value and then back to the outmost disk to inside servicing requests. This algorithm is simple and easy to understand. CLOOK algorithm have less starvation than SSTF and CSCAN. This algorithm considers the disk in circular form.
 
 6. *CSCAN Algorithm:* Go from the outside to inside servicing requests till 0 and then back to the outmost diskto inside servicing requests. This algorithm is simple and easy to understand. CSCAN algorithm haveless starvation than SSTF. This algorithm considers the disk in circular form.
 
