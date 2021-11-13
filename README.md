@@ -22,35 +22,23 @@ address in the previous block to not search throught memory for faster allocatio
     2. Length of the allocated portion.
 
 ## Disc Scheduling Algorithm
-1. *CLOOK Algorithm:* Go from the outside to inside servicing requests till the least service request
-value and then back to the outmost disk to inside servicing requests. This algorithm is simple and 
-easy to understand. CLOOK algorithm have less starvation than SSTF and CSCAN.
-This algorithm considers the disk in circular form.
-
-2. *CSCAN Algorithm:* Go from the outside to inside servicing requests till 0 and then back to the outmost disk
-to inside servicing requests. This algorithm is simple and easy to understand. CSCAN algorithm have
-less starvation than SSTF. This algorithm considers the disk in circular form.
-
-3. *LOOK Algorithm:* Same as SCAN but will go to the least request track and not till 0 
-and then back from inside to outside servicing requests. This algorithm is simple and easy to 
-understand. LOOK algorithm have no starvation. This algorithm is better than FCFS and SCAN 
-Scheduling algorithm .
-
-4. *SCAN algorithm:* Go from the outside to inside servicing requests till 0 and then back from inside
-to outside servicing requests. This algorithm is simple and easy to understand. CAN algorithm have
-no starvation. This algorithm is better than FCFS Scheduling algorithm.
-
-5. *SSTF Scheduling:* Select the disk service request that requires the least movement of the disk head
-from the current position regardless of the direction. Starvation possible. 
-Switching head direction slows down the system. Every request is serviced.
-
-6. *FCFS Scheduling:* It is the Simplest Disk Scheduling Algorithm. It erforms operations according to order of the request. No ordering of work queue. 
+1. *FCFS Scheduling:* It is the Simplest Disk Scheduling Algorithm. It erforms operations according to order of the request. No ordering of work queue. 
 No starvation. Every request is serviced. In the code, I assumed static order of requests.
+
+2. *SSTF Scheduling:* Select the disk service request that requires the least movement of the disk head from the current position regardless of the direction. Starvation possible. Switching head direction slows down the system. Every request is serviced.
+
+3. *LOOK Algorithm:* Same as SCAN but will go to the least request track and not till 0 and then back from inside to outside servicing requests. This algorithm is simple and easy to understand. LOOK algorithm have no starvation. This algorithm is better than FCFS and SCAN Scheduling algorithm.
+
+4. *SCAN algorithm:* Go from the outside to inside servicing requests till 0 and then back from inside to outside servicing requests. This algorithm is simple and easy to understand. CAN algorithm have no starvation. This algorithm is better than FCFS Scheduling algorithm.
+
+5.*CLOOK Algorithm:* Go from the outside to inside servicing requests till the least service request value and then back to the outmost disk to inside servicing requests. This algorithm is simple and easy to understand. CLOOK algorithm have less starvation than SSTF and CSCAN. This algorithm considers the disk in circular form.
+
+6. *CSCAN Algorithm:* Go from the outside to inside servicing requests till 0 and then back to the outmost diskto inside servicing requests. This algorithm is simple and easy to understand. CSCAN algorithm haveless starvation than SSTF. This algorithm considers the disk in circular form.
 
 ## CLASSICAL PROBLEMS IN OPERATING SYSTEM
 
-1. *The Dining Philosopher's Probelm* : The dining philosopher's problem is a variation on the traditional synchronisation problem, in which five philosophers sit around a circular table and alternate between thinking and eating. A bowl of noodles, as well as five chopsticks for each of the philosophers, is placed in the centre of the table.
+1. *The Dining Philosopher's Problem* : The dining philosopher's problem is a variation on the traditional synchronisation problem, in which five philosophers sit around a circular table and alternate between thinking and eating. A bowl of noodles, as well as five chopsticks for each of the philosophers, is placed in the centre of the table.
 A philosopher must use both their right and left chopsticks to eat. A philosopher can only eat if both of his or her immediate left and right chopsticks are available.
 If the philosopher's immediate left and right chopsticks are not available, the philosopher places their (either left or right) chopstick on the table and resumes thinking.
 
-2. *Producer Consumer Semaphore* : Producer consumer problem is a classical synchronization problem. There isa fixed-size buffer. A producer can make a product and store it in the buffer. A consumer has the ability to select and consume objects. We must ensure that when a producer places an item in the buffer, the consumer does not consume any of the items. The buffer portion is crucial in this problem. 
+2. *Producer Consumer Semaphore Problem* : Producer consumer problem is a classical synchronization problem. There isa fixed-size buffer. A producer can make a product and store it in the buffer. A consumer has the ability to select and consume objects. We must ensure that when a producer places an item in the buffer, the consumer does not consume any of the items. The buffer portion is crucial in this problem. 
