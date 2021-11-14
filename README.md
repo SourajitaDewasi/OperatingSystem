@@ -24,6 +24,7 @@ address in the previous block to not search throught memory for faster allocatio
 ## Disc Scheduling Algorithm
 1. *FCFS Scheduling:* It is the Simplest Disk Scheduling Algorithm. It erforms operations according to order of the request. No ordering of work queue. 
 No starvation. Every request is serviced. In the code, I assumed static order of requests.
+[Reference Link](https://github.com/SourajitaDewasi/OperatingSystem/blob/main/FirstComeFirstServe.cpp)
 
 2. *SSTF Scheduling:* Select the disk service request that requires the least movement of the disk head from the current position regardless of the direction. Starvation possible. Switching head direction slows down the system. Every request is serviced.
 
@@ -32,8 +33,10 @@ No starvation. Every request is serviced. In the code, I assumed static order of
 4. *SCAN algorithm:* Go from the outside to inside servicing requests till 0 and then back from inside to outside servicing requests. This algorithm is simple and easy to understand. CAN algorithm have no starvation. This algorithm is better than FCFS Scheduling algorithm.
 
 5. *CLOOK Algorithm:* Go from the outside to inside servicing requests till the least service request value and then back to the outmost disk to inside servicing requests. This algorithm is simple and easy to understand. CLOOK algorithm have less starvation than SSTF and CSCAN. This algorithm considers the disk in circular form.
+[Reference Link](https://github.com/SourajitaDewasi/OperatingSystem/blob/main/CLOOK.cpp)
 
 6. *CSCAN Algorithm:* Go from the outside to inside servicing requests till 0 and then back to the outmost diskto inside servicing requests. This algorithm is simple and easy to understand. CSCAN algorithm haveless starvation than SSTF. This algorithm considers the disk in circular form.
+[Reference Link](https://github.com/SourajitaDewasi/OperatingSystem/blob/main/CSCAN.cpp)
 
 ## CLASSICAL PROBLEMS IN OPERATING SYSTEM
 
