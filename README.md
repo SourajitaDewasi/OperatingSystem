@@ -3,8 +3,10 @@ Algorithms Studied During Operating Sytem Course
 
 ## Page Replacement Algorithm
 1. *First In First Out (FIFO) Algorithm:* This is the basic page replacement method. The operating system uses this algorithm to maintain track of all pages in memory in a queue, with the oldest page at the top. When a page has to be replaced, the first page in the queue is chosen for replacement. 
+[Code Link](https://github.com/SourajitaDewasi/OperatingSystem/blob/main/FirstComeFirstServe.cpp)
 
 2. *Least Recently Used (LRU) Algorithm:* The Least Recently Used (LRU) algorithm is a greedy method in which the page to be replaced is the one that has been used the least recently. The concept is based on the fact that the most recently used page is unlikely to be the most recently utilised page. 
+[Code Link](https://github.com/SourajitaDewasi/OperatingSystem/blob/main/LeastRecentlyUsed.cpp)
 
 3. *Most Recently Used (MRU) Algorithm:* The Most Recently Used (LRU) algorithm is a greedy method in which the page to be replaced is the one that has been used the least recently. The concept is based on the fact that the most recently used page is unlikely to be the most recently utilised page. 
 4. *Optimal Algorithm:*
