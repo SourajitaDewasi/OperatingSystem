@@ -29,7 +29,7 @@ address in the previous block to not search throught memory for faster allocatio
 No starvation. Every request is serviced. In the code, I assumed static order of requests.
 [Code Link](https://github.com/SourajitaDewasi/OperatingSystem/blob/main/FirstComeFirstServe.cpp)
 
-2. *SSTF Scheduling:* Select the disk service request that requires the least movement of the disk head from the current position regardless of the direction. Starvation possible. Switching head direction slows down the system. Every request is serviced. [Code Link}(https://github.com/SourajitaDewasi/OperatingSystem/blob/main/ShortestSeekTimeFirst.cpp)
+2. *SSTF Scheduling:* Select the disk service request that requires the least movement of the disk head from the current position regardless of the direction. Starvation possible. Switching head direction slows down the system. Every request is serviced. [Code Link](https://github.com/SourajitaDewasi/OperatingSystem/blob/main/ShortestSeekTimeFirst.cpp)
 
 3. *LOOK Algorithm:* Same as SCAN but will go to the least request track and not till 0 and then back from inside to outside servicing requests. This algorithm is simple and easy to understand. LOOK algorithm have no starvation. This algorithm is better than FCFS and SCAN Scheduling algorithm.
 
