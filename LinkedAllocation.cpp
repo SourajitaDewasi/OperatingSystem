@@ -1,4 +1,4 @@
-/* Linked Allocation 
+
 #include <iostream>
 using namespace std;
 int MaximumSizeAvailable=12;
