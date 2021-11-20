@@ -3,7 +3,7 @@ Performs operations according to order of the request. No ordering of work queue
 No starvation. Every request is serviced. */
 
 /*We are assuming static order of requests. */
-
+//This code is contributed by SOurajita Dewasi
 #include <bits/stdc++.h>
 #include <iostream>
 using namespace std;
