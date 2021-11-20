@@ -2,6 +2,7 @@
 required by the memory immediately and hence can be replaced by an incoming non- placed page. So 
 in this algorithm the most recent page is replaced by a page which isn't present in the frame.*/
 
+//This code is contributed by Sourajita Dewasi
 #include <iostream>
 using namespace std;
 
