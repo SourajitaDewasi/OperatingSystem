@@ -8,8 +8,9 @@ Algorithms Studied During Operating Sytem Course
 2. *Least Recently Used (LRU) Algorithm:* The Least Recently Used (LRU) algorithm is a greedy method in which the page to be replaced is the one that has been used the least recently. The concept is based on the fact that the most recently used page is unlikely to be the most recently utilised page. 
 [Code Link](https://github.com/SourajitaDewasi/OperatingSystem/blob/main/LeastRecentlyUsed.cpp)
 
-3. *Most Recently Used (MRU) Algorithm:* The Most Recently Used (LRU) algorithm is a greedy method in which the page to be replaced is the one that has been used the least recently. The concept is based on the fact that the most recently used page is unlikely to be the most recently utilised page. 
-4. *Optimal Algorithm:*
+3. *Most Recently Used (MRU) Algorithm:* The Most Recently Used (LRU) algorithm is a greedy method in which the page to be replaced is the one that has been used the least recently. The concept is based on the fact that the most recently used page is unlikely to be the most recently utilised page. [Code Link](https://github.com/SourajitaDewasi/OperatingSystem/blob/main/MostRecentlyUsed.cpp)
+
+4. *Optimal Algorithm:* 
 
 ## File Allocation Algorithm
 1. *Indexed Allocation:* Indexed allocation scheme stores all the disk pointers in one of the blocks called as indexed block. Indexed block doesn't hold the file data, but it holds the pointers to all the disk blocks allocated to that particular file. Directory entry will only contain the index block address.
@@ -28,7 +29,7 @@ address in the previous block to not search throught memory for faster allocatio
 No starvation. Every request is serviced. In the code, I assumed static order of requests.
 [Code Link](https://github.com/SourajitaDewasi/OperatingSystem/blob/main/FirstComeFirstServe.cpp)
 
-2. *SSTF Scheduling:* Select the disk service request that requires the least movement of the disk head from the current position regardless of the direction. Starvation possible. Switching head direction slows down the system. Every request is serviced.
+2. *SSTF Scheduling:* Select the disk service request that requires the least movement of the disk head from the current position regardless of the direction. Starvation possible. Switching head direction slows down the system. Every request is serviced. [Code Link}(https://github.com/SourajitaDewasi/OperatingSystem/blob/main/ShortestSeekTimeFirst.cpp)
 
 3. *LOOK Algorithm:* Same as SCAN but will go to the least request track and not till 0 and then back from inside to outside servicing requests. This algorithm is simple and easy to understand. LOOK algorithm have no starvation. This algorithm is better than FCFS and SCAN Scheduling algorithm.
 
