@@ -10,7 +10,7 @@ Algorithms Studied During Operating Sytem Course
 
 3. *Most Recently Used (MRU) Algorithm:* The Most Recently Used (LRU) algorithm is a greedy method in which the page to be replaced is the one that has been used the least recently. The concept is based on the fact that the most recently used page is unlikely to be the most recently utilised page. [Code Link](https://github.com/SourajitaDewasi/OperatingSystem/blob/main/MostRecentlyUsed.cpp)
 
-4. *Optimal Algorithm:* 
+4. *Optimal Algorithm:* This algorithm replaces a page that will no longer be referred to in the future. Although it cannot be implemented in practise, it can be used as a benchmark. In terms of optimal solutions, other algorithms are compared to this one. SInce we hve used static set of requests, we can implement the optimal algorithm.
 
 ## File Allocation Algorithm
 1. *Indexed Allocation:* Indexed allocation scheme stores all the disk pointers in one of the blocks called as indexed block. Indexed block doesn't hold the file data, but it holds the pointers to all the disk blocks allocated to that particular file. Directory entry will only contain the index block address. [Code Link](https://github.com/SourajitaDewasi/OperatingSystem/blob/main/IndexedAllocation.cpp)
