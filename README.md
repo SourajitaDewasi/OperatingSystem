@@ -18,7 +18,6 @@ Algorithms Studied During Operating Sytem Course
 2. *Sequential Allocation:* Also known as Contigous Allocation, each file occupies a contiguous set of blocks on the disk.  This means that given the starting block address and the length of the file (in terms of blocks required), one can determine the blocks occupied by the file. The directory entry for a file with contiguous allocation contains:
 
     1. Address of starting block
- 
     2. Length of the allocated portion.
 
 3. *Linked Allocation:* Linked Allocation is a non-contiguous memory allocation method. We just keep a link of the next 
