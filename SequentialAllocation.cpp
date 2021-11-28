@@ -1,6 +1,8 @@
 /* Linked Allocation is a non-contiguous memory allocation method. We just keep a link of the next 
 address in the previous block to not search throught memory for faster allocation or deallocation */
 
+
+//This code is contributed by SOurajita Dewasi
 #include <iostream>
 using namespace std;
 int MaximumSizeAvailable=12;
