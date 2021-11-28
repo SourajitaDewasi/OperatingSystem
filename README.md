@@ -21,7 +21,7 @@ Algorithms Studied During Operating Sytem Course
     2. Length of the allocated portion.
 
 3. *Linked Allocation:* Linked Allocation is a non-contiguous memory allocation method. We just keep a link of the next 
-address in the previous block to not search throught memory for faster allocation or deallocation. [Code Link](
+address in the previous block to not search throught memory for faster allocation or deallocation. [Code Link](https://github.com/SourajitaDewasi/OperatingSystem/blob/main/SequentialAllocation.cpp)
 
 ## Disc Scheduling Algorithm
 1. *FCFS Scheduling:* It is the Simplest Disk Scheduling Algorithm. It erforms operations according to order of the request. No ordering of work queue. 
