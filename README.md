@@ -13,13 +13,13 @@ Algorithms Studied During Operating Sytem Course
 4. *Optimal Algorithm:* This algorithm replaces a page that will no longer be referred to in the future. Although it cannot be implemented in practise, it can be used as a benchmark. In terms of optimal solutions, other algorithms are compared to this one. SInce we hve used static set of requests, we can implement the optimal algorithm. [Code Link](https://github.com/SourajitaDewasi/OperatingSystem/blob/main/OptimalAlgorithm.cpp)
 
 ## File Allocation Algorithm
-1. *Indexed Allocation:* Indexed allocation scheme stores all the disk pointers in one of the blocks called as indexed block. Indexed block doesn't hold the file data, but it holds the pointers to all the disk blocks allocated to that particular file. Directory entry will only contain the index block address. [Code Link](https://github.com/SourajitaDewasi/OperatingSystem/blob/main/IndexedAllocation.cpp)
-
-2. *Sequential Allocation:* Also known as Contigous Allocation, each file occupies a contiguous set of blocks on the disk.  This means that given the starting block address and the length of the file (in terms of blocks required), one can determine the blocks occupied by the file. The directory entry for a file with contiguous allocation contains:
+1. *Sequential Allocation:* Also known as Contigous Allocation, each file occupies a contiguous set of blocks on the disk.  This means that given the starting block address and the length of the file (in terms of blocks required), one can determine the blocks occupied by the file. The directory entry for a file with contiguous allocation contains:
 
     1. Address of starting block
     2. Length of the allocated portion.
 [Code Link](https://github.com/SourajitaDewasi/OperatingSystem/blob/main/SequentialAllocation.cpp)
+
+2. *Indexed Allocation:* Indexed allocation scheme stores all the disk pointers in one of the blocks called as indexed block. Indexed block doesn't hold the file data, but it holds the pointers to all the disk blocks allocated to that particular file. Directory entry will only contain the index block address. [Code Link](https://github.com/SourajitaDewasi/OperatingSystem/blob/main/IndexedAllocation.cpp)
 
 3. *Linked Allocation:* Linked Allocation is a non-contiguous memory allocation method. We just keep a link of the next 
 address in the previous block to not search throught memory for faster allocation or deallocation. [Code Link](https://github.com/SourajitaDewasi/OperatingSystem/blob/main/SequentialAllocation.cpp)
