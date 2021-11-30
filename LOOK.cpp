@@ -3,6 +3,8 @@ and then back from inside to outside servicing requests. This algorithm is simpl
 understand. LOOK algorithm have no starvation. This algorithm is better than FCFS and SCAN 
 Scheduling algorithm . */
 
+
+//This code is contributed by Sourajita Dewasi
 #include <iostream>
 #include<stdio.h>
 #include<algorithm>
