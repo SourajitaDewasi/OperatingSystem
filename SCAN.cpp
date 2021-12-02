@@ -2,6 +2,7 @@
 to outside servicing requests. This algorithm is simple and easy to understand. CAN algorithm have
 no starvation. This algorithm is better than FCFS Scheduling algorithm . */
 
+//This code is implemented by Sourajita Dewasi
 #include <iostream>
 #include<stdio.h>
 #include<algorithm>
