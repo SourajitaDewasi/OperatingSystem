@@ -33,7 +33,7 @@ No starvation. Every request is serviced. In the code, I assumed static order of
 
 3. *LOOK Algorithm:* Same as SCAN but will go to the least request track and not till 0 and then back from inside to outside servicing requests. This algorithm is simple and easy to understand. LOOK algorithm have no starvation. This algorithm is better than FCFS and SCAN Scheduling algorithm. [Code Link](https://github.com/SourajitaDewasi/OperatingSystem/blob/main/LOOK.cpp)
 
-4. *SCAN algorithm:* Go from the outside to inside servicing requests till 0 and then back from inside to outside servicing requests. This algorithm is simple and easy to understand. CAN algorithm have no starvation. This algorithm is better than FCFS Scheduling algorithm.
+4. *SCAN algorithm:* Go from the outside to inside servicing requests till 0 and then back from inside to outside servicing requests. This algorithm is simple and easy to understand. CAN algorithm have no starvation. This algorithm is better than FCFS Scheduling algorithm. [Code Link](https://github.com/SourajitaDewasi/OperatingSystem/blob/main/SCAN.cpp)
 
 5. *CLOOK Algorithm:* Go from the outside to inside servicing requests till the least service request value and then back to the outmost disk to inside servicing requests. This algorithm is simple and easy to understand. CLOOK algorithm have less starvation than SSTF and CSCAN. This algorithm considers the disk in circular form.
 [Code Link](https://github.com/SourajitaDewasi/OperatingSystem/blob/main/CLOOK.cpp)
