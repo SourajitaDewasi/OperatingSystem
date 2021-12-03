@@ -51,4 +51,4 @@ If the philosopher's immediate left and right chopsticks are not available, the 
 
 3. *Reader Writer Problem* : When the readcount is zero or there are no readers waiting, the writer can write.The writer is blocked if the first reader performs the wait(wrt) operation before the writer. It only calls the signal(wrt) function when the final reader exits, signalling the writer to proceed. When a writer starts writing(readcount=0), the first reader is blocked on wait(wrt), and all other readers are blocked as well. 
 
-License Details: [GNU](https://github.com/SourajitaDewasi/OperatingSystem/blob/main/LICENSE)
+### License Details: [GNU](https://github.com/SourajitaDewasi/OperatingSystem/blob/main/LICENSE)
