@@ -46,6 +46,7 @@ No starvation. Every request is serviced. In the code, I assumed static order of
 1. *The Dining Philosopher's Problem* : The dining philosopher's problem is a variation on the traditional synchronisation problem, in which five philosophers sit around a circular table and alternate between thinking and eating. A bowl of noodles, as well as five chopsticks for each of the philosophers, is placed in the centre of the table.
 A philosopher must use both their right and left chopsticks to eat. A philosopher can only eat if both of his or her immediate left and right chopsticks are available.
 If the philosopher's immediate left and right chopsticks are not available, the philosopher places their (either left or right) chopstick on the table and resumes thinking.
+[Code Link](https://github.com/SourajitaDewasi/OperatingSystem/blob/main/PhilosopherDinner.cpp)
 
 2. *Producer Consumer Semaphore Problem* : Producer consumer problem is a classical synchronization problem. There is a fixed-size buffer. A producer can make a product and store it in the buffer. A consumer has the ability to select and consume objects. We must ensure that when a producer places an item in the buffer, the consumer does not consume any of the items. The buffer portion is crucial in this problem. 
 
