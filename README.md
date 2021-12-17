@@ -48,7 +48,7 @@ A philosopher must use both their right and left chopsticks to eat. A philosophe
 If the philosopher's immediate left and right chopsticks are not available, the philosopher places their (either left or right) chopstick on the table and resumes thinking.
 [Code Link](https://github.com/SourajitaDewasi/OperatingSystem/blob/main/PhilosopherDinner.cpp)
 
-2. *Producer Consumer Semaphore Problem* : Producer consumer problem is a classical synchronization problem. There is a fixed-size buffer. A producer can make a product and store it in the buffer. A consumer has the ability to select and consume objects. We must ensure that when a producer places an item in the buffer, the consumer does not consume any of the items. The buffer portion is crucial in this problem. 
+2. *Producer Consumer Semaphore Problem* : Producer consumer problem is a classical synchronization problem. There is a fixed-size buffer. A producer can make a product and store it in the buffer. A consumer has the ability to select and consume objects. We must ensure that when a producer places an item in the buffer, the consumer does not consume any of the items. The buffer portion is crucial in this problem. [Code Link](https://github.com/SourajitaDewasi/OperatingSystem/blob/main/ProducerConsumerSemaphore.c)
 
 3. *Reader Writer Problem* : When the readcount is zero or there are no readers waiting, the writer can write.The writer is blocked if the first reader performs the wait(wrt) operation before the writer. It only calls the signal(wrt) function when the final reader exits, signalling the writer to proceed. When a writer starts writing(readcount=0), the first reader is blocked on wait(wrt), and all other readers are blocked as well. 
 
