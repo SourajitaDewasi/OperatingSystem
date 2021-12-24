@@ -2,6 +2,7 @@
 from the current position regardless of the direction. Starvation possible. 
 Switching head direction slows down the system. Every request is serviced. */
 
+// This code is contributed by Sourajita Dewasi
 /*We are assuming static order of requests. */
 
 #include <bits/stdc++.h>
