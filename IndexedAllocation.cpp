@@ -1,7 +1,9 @@
 /*  Indexed allocation scheme stores all the disk pointers in one of the blocks called as indexed block. Indexed block doesn't hold the file data, but it holds the pointers to all the disk blocks allocated to that particular file. Directory entry will only contain the index block address.*/
 //This code is contributed by Sourajita Dewasi
+
 #include <iostream>
 using namespace std;
+
 int MaximumSizeAvailable=12;
  
 int BlockFiles[12];
