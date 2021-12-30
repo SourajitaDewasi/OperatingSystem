@@ -1,6 +1,8 @@
-#include <iostream>
+//This code is contributed by Sourajita Dewasi
 
+#include <iostream>
 using namespace std;
+
 int PC1=1, PC2=1;
 int a=0;
 int flag0=0, flag1=0;
