@@ -1,7 +1,7 @@
 # OperatingSystem
 Algorithms Studied During Operating Sytem Course
 
-## Page Replacement Algorithm
+## Page Replacement Algorithms
 1. *First In First Out (FIFO) Algorithm:* This is the basic page replacement method. The operating system uses this algorithm to maintain track of all pages in memory in a queue, with the oldest page at the top. When a page has to be replaced, the first page in the queue is chosen for replacement. 
 [Code Link](https://github.com/SourajitaDewasi/OperatingSystem/blob/main/FirstComeFirstServe.cpp)
 
@@ -12,7 +12,7 @@ Algorithms Studied During Operating Sytem Course
 
 4. *Optimal Algorithm:* This algorithm replaces a page that will no longer be referred to in the future. Although it cannot be implemented in practise, it can be used as a benchmark. In terms of optimal solutions, other algorithms are compared to this one. SInce we hve used static set of requests, we can implement the optimal algorithm. [Code Link](https://github.com/SourajitaDewasi/OperatingSystem/blob/main/OptimalAlgorithm.cpp)
 
-## File Allocation Algorithm
+## File Allocation Algorithms
 1. *Sequential Allocation:* Also known as Contigous Allocation, each file occupies a contiguous set of blocks on the disk.  This means that given the starting block address and the length of the file (in terms of blocks required), one can determine the blocks occupied by the file. The directory entry for a file with contiguous allocation contains:
 
     1. Address of starting block
