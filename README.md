@@ -1,7 +1,9 @@
 # OperatingSystem
 Algorithms Studied During Operating Sytem Course
 
-## Page Replacement Algorithms
+## Page Replacement Algorithms:
+Page replacement algorithms are an important aspect of virtual memory management because they assist the operating system in determining which memory pages can be moved out to make room for the currently required page. All page replacement algorithms, however, have the same goal in mind: to increase page hits and reduce page faults. 
+
 1. *First In First Out (FIFO) Algorithm:* This is the basic page replacement method. The operating system uses this algorithm to maintain track of all pages in memory in a queue, with the oldest page at the top. When a page has to be replaced, the first page in the queue is chosen for replacement. 
 [Code Link](https://github.com/SourajitaDewasi/OperatingSystem/blob/main/FirstComeFirstServe.cpp)
 
