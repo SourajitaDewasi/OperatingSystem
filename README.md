@@ -14,7 +14,8 @@ Page replacement algorithms are an important aspect of virtual memory management
 
 4. *Optimal Algorithm:* This algorithm replaces a page that will no longer be referred to in the future. Although it cannot be implemented in practise, it can be used as a benchmark. In terms of optimal solutions, other algorithms are compared to this one. SInce we hve used static set of requests, we can implement the optimal algorithm. [Code Link](https://github.com/SourajitaDewasi/OperatingSystem/blob/main/OptimalAlgorithm.cpp)
 
-## File Allocation Algorithms
+## File Allocation Algorithms: File allocation methods are the methods through which any file is stored in the system's memory block. The fundamental goal of these techniques is to provide Disk space use that is as efficient as possible and the file blocks can be accessed quickly. 
+
 1. *Sequential Allocation:* Also known as Contigous Allocation, each file occupies a contiguous set of blocks on the disk.  This means that given the starting block address and the length of the file (in terms of blocks required), one can determine the blocks occupied by the file. The directory entry for a file with contiguous allocation contains:
 
     1. Address of starting block
