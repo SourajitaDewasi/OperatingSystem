@@ -1,4 +1,4 @@
-# OperatingSystem
+# Operating System
 Algorithms Studied During Operating Sytem Course
 
 ## Page Replacement Algorithms:
