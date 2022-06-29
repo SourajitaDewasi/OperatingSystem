@@ -1,4 +1,4 @@
-# Operating System
+# [Operating System](https://github.com/SourajitaDewasi/OperatingSystem)
 Algorithms Studied During Operating Sytem Course
 
 ## Page Replacement Algorithms:
